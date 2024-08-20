@@ -5,19 +5,33 @@ This project hosts a machine learning model that predicts the credit status of i
 
 ## Features Used
 The model considers the following data points to predict credit status:
-- Age
-- Income Level
-- Debt
-- Loan Amount
-- Employment Status
+
+- 'Month',
+- 'Age',
+- 'Occupation',
+- 'Annual_Income',
+- 'Num_Credit_Card',
+- 'Interest_Rate',
+- 'Num_of_Loan',
+- 'Type_of_Loan',
+- 'Delay_from_due_date',
+- 'Num_of_Delayed_Payment',
+- 'Changed_Credit_Limit',
+- 'Credit_Mix',
+- 'Outstanding_Debt',
+- 'Credit_Utilization_Ratio',
+- 'Credit_History_Age',
+- 'Payment_of_Min_Amount',
+- 'Total_EMI_per_month',
+- 'Amount_invested_monthly'
 
 ## Model Insights
 ### Feature Importances
-![Feature Importances](plots/model_evaluation_plots.png)
+![Feature Importances](plots/xgboost_random_forst_feature_importance.png)
 This image shows the relative importance of each feature in determining credit status. Features that have a bigger impact on the prediction are shown with larger bars.
 
 ### Model Performance
-![Model Performance](plots/xgboost_random_forst_feature_importance.png)
+![Model Performance](plots/model_evaluation_plots.png)
 This image displays the model's accuracy, precision, and recall. Here's what each of these metrics means:
 
 #### Accuracy
