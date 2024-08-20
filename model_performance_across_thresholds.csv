@@ -1,0 +1,19 @@
+Model,Threshold,Precision Minority Class,Precision Majority Class,Recall Minority Class,Features Dropped
+Random Forest,0.5,0.8022415039768619,0.9058612109482997,0.7651724137931034,"['Delay_from_due_date', 'Num_Credit_Inquiries', 'Credit_History_Age', 'Payment_Behaviour', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_of_Delayed_Payment', 'Num_of_Loan', 'Credit_Mix', 'Num_Bank_Accounts']"
+XGBoost,0.5,0.7609953703703703,0.874797516198704,0.6801724137931034,"['Delay_from_due_date', 'Num_Credit_Inquiries', 'Credit_History_Age', 'Payment_Behaviour', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_of_Delayed_Payment', 'Num_of_Loan', 'Credit_Mix', 'Num_Bank_Accounts']"
+Random Forest,0.55,0.7941732879303821,0.8911240994970776,0.7237931034482759,"['Delay_from_due_date', 'Num_Credit_Inquiries', 'Credit_History_Age', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_of_Delayed_Payment', 'Num_of_Loan', 'Credit_Mix', 'Num_Bank_Accounts']"
+XGBoost,0.55,0.7620243384199343,0.8748566417054577,0.6801724137931034,"['Delay_from_due_date', 'Num_Credit_Inquiries', 'Credit_History_Age', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_of_Delayed_Payment', 'Num_of_Loan', 'Credit_Mix', 'Num_Bank_Accounts']"
+Random Forest,0.6000000000000001,0.8055409433631422,0.9156466391550675,0.7920689655172414,"['Credit_History_Age', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_Credit_Inquiries', 'Num_of_Loan', 'Num_Bank_Accounts']"
+XGBoost,0.6000000000000001,0.7648339684267828,0.8906066671267858,0.7267241379310345,"['Credit_History_Age', 'Interest_Rate', 'Monthly_Balance', 'Monthly_Inhand_Salary', 'Num_Credit_Inquiries', 'Num_of_Loan', 'Num_Bank_Accounts']"
+Random Forest,0.6500000000000001,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.6500000000000001,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
+Random Forest,0.7000000000000002,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.7000000000000002,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
+Random Forest,0.7500000000000002,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.7500000000000002,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
+Random Forest,0.8000000000000003,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.8000000000000003,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
+Random Forest,0.8500000000000003,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.8500000000000003,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
+Random Forest,0.9000000000000004,0.815091066782307,0.9226554267650158,0.8101724137931035,['Monthly_Inhand_Salary']
+XGBoost,0.9000000000000004,0.7819371252044339,0.8967372559839967,0.7418965517241379,['Monthly_Inhand_Salary']
