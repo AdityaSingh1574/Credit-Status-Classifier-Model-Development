@@ -1,7 +1,7 @@
 # Credit Status Classification Model
 
 ## Overview
-This project hosts a machine learning model that predicts the credit status of individuals, categorizing them as either '0' (low credit risk) or '1' (high credit risk). The model uses several pieces of information (features) about each individual to make its predictions.
+This project hosts a machine learning model that predicts the credit status of individuals, categorizing them as either '0' (low credit risk - Good) or '1' (high credit risk - Poor). The model uses several pieces of information (features) about each individual to make its predictions.
 
 ## Features Used
 The model considers the following data points to predict credit status:
